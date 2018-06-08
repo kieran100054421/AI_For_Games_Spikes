@@ -1,0 +1,23 @@
+Start,1,1,False,The agent wakes up getting out of bed,HUNGER:THIRST:BLADDER:HYGIENE,-4.5:-2.5:-2:-3.5
+Death,1,0,False,The agent has died,,
+Pass Out (Hunger),10,1,True,The agent has passed out from hunger,HYGIENE:ENERGY,-1.5:-2.5
+Empty Bladder,1,1,True,The agent could no longer hold it it and wet themselves,THIRST:BLADDER:HYGIENE,-0.5:10:-10
+Pass Out (Energy),10,1,True,The agent has passed out from lack of energy,ENERGY:HYGIENE,2.5:-1.5
+Eat Fruit,3,2,True,The agent has eaten some fruit,HUNGER:BLADDER:BOREDOM:HYGIENE,1.5:-0.5:-1:-1
+Eat Snack,3,2,True,The agent has eaten a snack,HUNGER:BOREDOM:HYGIENE,1:-1:-1
+Eat Meal,30,2,True,The agent has eaten a meal,HUNGER:HYGIENE:BOREDOM:ENERGY,3.5:-2.5:-1.5:1
+Drink Glass of Water,2,2,True,The agent has drunk a glass of water,THIRST:BLADDER,2:-1
+Drink Beer,3,2,True,The agent drank a bottle of beer,THIRST:BLADDER:ENERGY,1:-2.5:-1.5
+Drink Litre of Water,30,2,True,The agent drank a litre of water,THIRST:BOREDOM:BLADDER,4.5:-2.5:-2.5
+Sleep in Bed,480,2,True,The agent has gone to sleep in bed,HUNGER:THIRST:BLADDER:BOREDOM:HYGIENE:ENERGY,-4.5:-2.5:-2:3:-3.5:5
+Sleep on Sofa,30,2,True,The agent has taken a nap on the sofa,HYGIENE:ENERGY,-2.5:3.5
+Workout,45,2,True,The agent is working out,HUNGER:THIRST:BOREDOM:ENERGY,-2.5:-2:3:-2.5
+Watch TV,45,2,True,The agent is watching the television,HUNGER:THIRST:BOREDOM:ENERGY,-0.5:-0.5:4:-0.5
+Play Computer Games,40,2,True,The agent is playing computer games,HUNGER:THIRST:BOREDOM:ENERGY,-1:-0.5:3.5:-0.5
+Read Chapter,20,2,True,The agent read a chapter of a book,BOREDOM,2
+Watch Paint Dry,120,2,True,The agent has been watching paint dry,BOREDOM:ENERGY,-5:0.5
+Wash Hands,2,2,True,The agent has washed their hands,BLADDER:HYGIENE,-1:1.5
+Brush Teeth,3,2,True,The agent has brushed their teeth,BLADDER:HYGIENE,-1.5:2
+Have Shower,10,2,True,The agent has had a shower,BLADDER:BOREDOM:HYGIENE,-2:-2:5
+Pee,2,2,True,The agent went to the toilet,BLADDER:HYGIENE,2.5:-2
+Use Toilet,10,2,True,The agent went to the toilet,BLADDER:BOREDOM:HYGIENE,3.5:-2.5:-3.5
